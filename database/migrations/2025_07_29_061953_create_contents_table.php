@@ -15,6 +15,13 @@ class CreateContentsTable extends Migration
     {
         Schema::create('contents', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('module_id')->constrained()->onDelete('cascade');
+            $table->string('type')->nullable();
+            $table->string('title');
+            $table->text('description')->nullable();
+            $table->string('video_url')->nullable();
+            $table->string('external_link')->nullable();
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }
