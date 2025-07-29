@@ -12,8 +12,8 @@ This is a Laravel app to create courses with multiple modules and contents.
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/TanbirCU/softvence_task
+cd softvence_task
 composer install
 cp .env.example .env
 php artisan key:generate
