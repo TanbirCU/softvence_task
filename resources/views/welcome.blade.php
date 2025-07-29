@@ -127,6 +127,8 @@
                         <option value="link">Link</option>
                     </select>
                     <input type="text" name="modules[${index}][contents][${contentCount}][value]" placeholder="Content">
+                    <input type="text" name="modules[${index}][vedio_url][${contentCount}][value]" placeholder="Vedio URL">
+                    <input type="text" name="modules[${index}][vedio_length][${contentCount}][value]" placeholder="Vedio Length">
                     <button type="button" class="removeContent remove-btn">Remove Content</button>
                 </div>
             `;
