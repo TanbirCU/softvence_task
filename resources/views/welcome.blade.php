@@ -60,7 +60,7 @@
         }
 
         .remove-btn:hover {
-            background-color: #a71d2a;
+            background-color: #ed1e33ff;
         }
 
         .module {
@@ -151,7 +151,7 @@
             let formData = $(this).serialize();
 
             $.ajax({
-                url: "/courses", // Replace with actual backend URL
+                url: "/courses", 
                 method: "POST",
                 data: formData,
                 success: function (res) {
